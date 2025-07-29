@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <form class="check-form">
+        <header class="header">
+            <h1>Password Strength Checker</h1>
+        </header>
+
+        <div class="container">
+            <p class="title">Password</p>
+
+            <input type="password" class="password-input" placeholder="Password" oninput="checkPasswordStrength()">
+
+            <p class="strength-title">Strength of password</p>
+
+            <div class="process-container">
+                <div class="process-bar"></div>
+            </div>
+
+            <div class="strength-text"></div>
+        </div>
+    </form>
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note taking app</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <button class="add-btn" onclick="handleAddBtn()">
+                +Add note
+            </button>
+
+            <h1 class="header-text">Note taking app</h1>
+        </header>
+
+        <div class="container">
+            <div class="note-form">
+                <div class="button-group">
+                    <button class="delete-btn" onclick="handleDeleteBtn()">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+    
+                    <button class="save-btn" onclick="handleSaveBtn()">
+                        <i class="fa-solid fa-floppy-disk"></i>
+                    </button>
+                </div>
+    
+                <div class="note-title">
+                    <input class="note-title-input" type="text" placeholder="Title">
+                </div>
+    
+                <div class="note-content">
+                    <textarea class="note-content-input" name="" id="" placeholder="Start typing"></textarea>
+                </div>
+            </div>
+
+            <ul class="note-list"></ul>
+        </div>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
