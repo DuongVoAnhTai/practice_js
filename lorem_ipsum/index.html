@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <p>Lorem Ipsum Generator</p>
+        </header>
+
+        <div class="control">
+            <div class="control-group">
+                <label>Paragraphs:</label>
+                <div class="slider-container">
+                    <input type="range" class="slider-paragraph" min="1" max="10" value="3" name="" id="">
+                    <div class="slider-value">3 paragraphs</div>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Words per Paragraph:</label>
+                <div class="slider-container">
+                    <input type="range" class="slider-word" min="10" max="200" value="50" name="" id="">
+                    <div class="slider-value">50 words</div>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Tag:</label>
+                <select class="dropdown">
+                    <option value="p">&lt;p&gt;</option>
+                    <option value="div">&lt;div&gt;</option>
+                    <option value="span">&lt;span&gt;</option>
+                    <option value="article">&lt;article&gt;</option>
+                    <option value="section">&lt;section&gt;</option>
+                </select>
+                
+            </div>
+
+            <div class="control-group">
+                <label>Include HTML:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" class="includeHtml" name="" id="">
+                    <label for="includeHtml">Yes</label>
+                </div>
+            </div>
+
+            <button class="generate-btn" onclick="generateLorem()">Generate Lorem Ipsum</button>
+        </div>
+
+        <div class="output">
+            Click "Generate Lorem Ipsum" to create your text...
+        </div>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
