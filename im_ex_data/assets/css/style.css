@@ -1,0 +1,34 @@
+.wrapper {
+    width: 600px;
+    margin: 50px auto;
+}
+
+table, th, td{
+    text-align: start;
+    border: 1px solid #333;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+.btn-group {
+    margin-top: 30px;
+    text-align: end;
+}
+
+.export-btn,
+.import-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #007f00;
+    color: white;
+}
+
+.export-btn:hover,
+.import-btn:hover {
+    background-color: #015c01;
+}
