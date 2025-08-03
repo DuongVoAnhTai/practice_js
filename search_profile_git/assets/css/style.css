@@ -1,0 +1,67 @@
+.wrapper {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header {
+
+}
+
+.search {
+    width: 500px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.profile-card {
+    display: none;
+    align-items: center;
+    width: 520px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #8df0f3;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card:hover {
+    background-color: #52dce0;
+    cursor: pointer;
+}
+
+.repo-list {
+    display: none;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 12px;
+}
+
+.profile {
+    width: 300px;
+    height: 150px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin: 12px;
+    padding: 16px;
+}
+
+.username {
+    color: #388ce2;
+    text-align: start;
+}
+
+.follow {
+    margin-top: 12px;
+}
